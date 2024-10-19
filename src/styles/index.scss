@@ -1,0 +1,15 @@
+@import "themes/dark";
+@import "themes/normal";
+@import "variables/global";
+@import "reset";
+@import "fonts";
+
+.app {
+  font: var(--font-m);
+  font-family: var(--font-family-main), sans-serif;
+
+  background: var(--bg-color);
+  color: var(--primary-color);
+
+  min-height: 100vh;
+}
